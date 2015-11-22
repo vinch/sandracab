@@ -1,0 +1,30 @@
+h1 {
+  position: static;
+  font-size: 8em;
+  line-height: 1em;
+  color: #333;
+}
+.inner {
+  max-width: 100%;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+#header {
+  height: auto;
+  background: transparent none;
+}
+#social {
+  display: none;
+}
+#content .inner {
+  padding: 40px 0;
+}
+#info {
+  padding: 40px 0;
+  background: transparent none;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  font-size: 1.8em;
+}

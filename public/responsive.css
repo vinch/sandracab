@@ -1,0 +1,43 @@
+@media (max-width: 1080px) {
+  h1 {
+    position: static;
+    font-size: 8em;
+    line-height: 1em;
+    padding-right: 80px;
+    white-space: normal;
+  }
+  #header {
+    height: auto;
+    padding: 40px 0;
+  }
+  #social {
+    bottom: 20px;
+  }
+  #info {
+    font-size: 1.8em;
+  }
+}
+
+@media (max-width: 810px) {
+  #sections .section {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 40px;
+  }
+  #sections .section:last-child {
+    border: 0;
+    padding: 0;
+  }
+  #sections .section h3, #sections .section .section_content {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+  #sections .section h3 {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  #sections .section .section_content {
+    border: 0;
+  }
+
+}
